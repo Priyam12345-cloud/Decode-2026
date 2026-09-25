@@ -211,4 +211,4 @@ TrackA_v2_FINAL/
 
 **Run:** Python 3.12. Install `pandas numpy scipy scikit-learn matplotlib seaborn highspy jupyter`, then run the notebooks in order: 01 → 10 → 11 → 12 → 13. Notebook 10 takes about 1 minute, 11 about 8 minutes, 12 about 5 minutes and 13 about 5 minutes on one core. All notebooks are saved with their outputs, so they can be read without re-running. Our v1 notebooks (02–09) are not included. Notebooks 12 and 13 show their results in the saved outputs. If they are re-run without the v1 files, those comparison rows are skipped.
 
-**Use of generative AI (FAQ 9):** Claude (Anthropic) was used to review the v1 pipeline, identify the stress-test and price-response issues, and draft code for the hinge model, the robust MILP and the stress tests. All modelling choices, validation, assumptions and the recommendation were reviewed by the team and are our own.
+
