@@ -1,0 +1,7 @@
+run,solver_status,runtime_seconds,objective,fractional_accounts,n_coupling_constraints,best_bound,mip_gap
+nominal LP relaxation,Optimal,51.86784355899999,2636388900.4146447,0,3,,
+nominal MILP,Optimal,98.574141459,2636388900.256533,0,3,2636388900.256533,0.0
+robust MILP,Optimal,140.13515978799998,2612324619.254237,0,8,2612324977.778541,1.3724339683204927e-07
+robust + all guardrails,Infeasible,160.241103248,-inf,0,11,-inf,inf
+nominal + all guardrails,Optimal,141.217453214,2405291921.282278,0,6,2405291921.282278,0.0
+"robust + guardrails, no MLR>110% band rule (FINAL)",Optimal,202.50593563999996,2572241863.655088,0,11,2572242040.3165154,6.867994423645933e-08

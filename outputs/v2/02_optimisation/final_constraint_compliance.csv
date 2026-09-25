@@ -1,0 +1,13 @@
+check,pass,value
+"one rate per account, 7,300 accounts",True,7300
+all rates within -15%..+25%,True,0..25
+account retention >= 80%,True,0.8374669546277519
+case MLR within 80-85%,True,0.814502653069598
+premium-weighted retention >= 80%,True,0.8303815292838925
+retained risk mix within +-15%,True,0.02213104890239026
+top-50 accounts <= +15%,True,15
+robust: lapse_shock retention >= 80%,True,
+robust: price_sensitive retention >= 80%,True,
+robust: lapse_shock MLR <= 85%,True,
+robust: price_sensitive MLR <= 85%,True,
+robust: claims_up MLR <= 85%,True,

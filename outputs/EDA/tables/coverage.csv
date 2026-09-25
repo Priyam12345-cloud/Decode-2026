@@ -1,0 +1,5 @@
+table,coverage,rows,unique_accounts
+B1,FY2025 snapshot,7300,7300.0
+B2,FY2023-FY2025,21900,7300.0
+B3,2025-01-01 to 2025-12-31 (FY2025 only),1650000,7300.0
+B4,2023-2026 across 48 regions,192,

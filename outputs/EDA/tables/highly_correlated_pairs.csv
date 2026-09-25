@@ -1,0 +1,11 @@
+feature_1,feature_2,spearman_correlation
+latest_premium,covered_lives_2025,0.9587116327870352
+latest_mlr,latest_claim_severity,0.9321130650239587
+latest_premium,latest_claim_count,0.9189030620070641
+latest_claim_count,covered_lives_2025,0.9163592526834087
+paid_claims,latest_claim_count,0.8937375011267059
+latest_mlr,latest_claim_frequency,0.8854676997011748
+latest_claim_frequency,latest_risk_score,0.875216543363557
+latest_mlr,latest_risk_score,0.8444756924057247
+latest_claim_severity,latest_risk_score,0.8381855293523207
+latest_claim_frequency,latest_claim_severity,0.8306338997768985

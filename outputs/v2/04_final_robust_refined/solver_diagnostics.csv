@@ -1,0 +1,3 @@
+run,solver_status,runtime_seconds,objective,fractional_accounts,n_coupling_constraints,best_bound,mip_gap
+LP relaxation (upper bound),Optimal,76.06121244699989,2572242040.316528,1,11,,
+MILP (decision),Optimal,178.81991791600012,2572241863.655088,0,11,2572242040.3165154,6.867994423645933e-08

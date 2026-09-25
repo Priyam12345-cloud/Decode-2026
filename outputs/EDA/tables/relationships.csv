@@ -1,0 +1,9 @@
+check,passed
+B1 account_id unique,True
+Every B2 account is in B1,True
+Every B3 account is in B1,True
+Every B1 region has B4 coverage,True
+Exactly 3 B2 rows per account,True
+B3 all service dates in 2025,True
+B3 all episodes are Paid,True
+B4 region-year unique,True

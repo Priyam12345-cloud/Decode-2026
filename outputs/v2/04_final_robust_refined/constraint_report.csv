@@ -1,0 +1,13 @@
+check,value,limit,pass
+Accounts with exactly one rate,7300,"= 7,300",True
+Rate range,0% to 25%,-15% to +25%,True
+Account retention,0.8374669546277519,>= 80%,True
+Case MLR,0.814502653069598,80-85%,True
+Premium-weighted retention,0.8303815292838925,>= 80%,True
+Retained risk-mix drift,0.02213104890239026,within +/-15%,True
+Top-50 accounts above +15%,0,= 0,True
+Retention under lapse_shock,0.8107850885997437,>= 80%,True
+MLR under lapse_shock,0.8192882075596603,<= 85%,True
+Retention under price_sensitive,0.8000001501010944,>= 80%,True
+MLR under price_sensitive,0.8075296750886959,<= 85%,True
+MLR under claims_up_4pct,0.8470827591923819,<= 85%,True

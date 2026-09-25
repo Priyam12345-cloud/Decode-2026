@@ -1,0 +1,4 @@
+run,solver_status,mip_gap,account_retention,premium_weighted_retention,expected_premium,expected_claims,case_mlr,expected_contribution,avg_rate_premium_weighted,accounts_at_cap,accounts_with_cut
+robust + all guardrails,Infeasible,inf,,,,,,,,,
+nominal + all guardrails,Optimal,0.0,0.8174137819161872,0.8212240180189698,13830139371.218765,11424703186.435287,0.8260728890563955,2405436184.783478,12.367194510124001,13.0,0.0
+"robust + guardrails, no MLR>110% band rule (FINAL)",Optimal,6.867994423645933e-08,0.8374669546277519,0.8303815292838925,13940588967.18088,11354646699.121593,0.814502653069598,2585942268.059286,12.039848497703332,1211.0,0.0

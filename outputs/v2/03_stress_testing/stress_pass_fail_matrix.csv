@@ -1,0 +1,14 @@
+scenario,v1 nb06,v1 nb07,v2 nominal,v2 robust,v2 FINAL (robust + guardrails)
+Favorable,True,True,True,True,True
+Mild favorable,True,True,True,True,True
+Base,False,True,True,True,True
+Mild adverse,False,False,False,False,False
+Moderate adverse,False,False,False,False,False
+Severe adverse,False,False,False,False,False
+Lapse shock only (-3 pts),False,False,False,True,True
+Price response +25%,False,False,False,True,True
+Adverse selection (risk<1.0 lapse),False,False,False,True,True
+Claims +4% only,False,False,True,True,True
+Claims +5% only,False,False,True,False,False
+"B4 trend, rates not reloaded",,,,,
+Combined severe (B4 + -5 pts),,,,,

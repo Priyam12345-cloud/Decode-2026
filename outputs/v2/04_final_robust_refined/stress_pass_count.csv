@@ -1,0 +1,6 @@
+solution,primary scenarios meeting retention>=80% & MLR<=85%,of
+v1 nb06 heuristic,2,11
+v1 nb07 refined heuristic,3,11
+v2 nominal MILP,5,11
+v2 robust MILP,7,11
+FINAL v2 robust + refined,7,11

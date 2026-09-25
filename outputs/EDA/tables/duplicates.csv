@@ -1,0 +1,5 @@
+table,key,duplicate_rows
+B1,account_id,0
+B2,quote_id,0
+B3,claim_episode_id,0
+B4,rating_region + calendar_year,0

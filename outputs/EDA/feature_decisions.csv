@@ -1,0 +1,22 @@
+feature,source,definition,available_at_2026_decision,leakage_risk,decision,reason
+latest_mlr,B2+B3,FY2025 paid claims / FY2025 quoted premium,Yes,Low,KEEP,Direct profitability signal under no-trend case.
+latest_claim_frequency,B1+B3,FY2025 paid episodes / covered lives,Yes,Low,KEEP,Exposure-normalized claims frequency.
+latest_claim_severity,B3,Mean paid amount per FY2025 episode,Yes,Low,KEEP,Separates severity from frequency.
+latest_claim_count,B3,FY2025 paid episode count,Yes,Low,KEEP,Claims volume with exposure denominator.
+covered_lives_2025,B1,FY2025 covered lives,Yes,Low,KEEP,Account size and exposure.
+latest_risk_score,B1,FY2025 account risk score,Yes,Low,KEEP,Current risk signal.
+risk_band,B1,Risk-score band,Yes,Low,INVESTIGATE,Interpretable alternative to continuous score; avoid duplication.
+rating_region,B1,Account rating region,Yes,Low,KEEP,Regional pricing and market context.
+unemployment_rate_2025,B4,2025 regional unemployment rate,Yes,Low,INVESTIGATE,Relevant regional context; validate incremental value later.
+renewal_rate_3yr,B2,Mean renewed_flag over 2023-2025,Conditional,Medium,KEEP,Historical retention signal; time-align for validation.
+rate_change_mean_3yr,B2,Mean offered rate change over 2023-2025,Yes,Low,KEEP,Historical price exposure.
+rate_change_slope,B2,2025 minus 2023 offered rate change divided by 2,Yes,Low,INVESTIGATE,Historical price trajectory from only three observations.
+risk_score_change,B2,2025 quote risk score minus 2023 quote risk score,Yes,Low,INVESTIGATE,Historical risk direction.
+historical_loss_making_indicator,B2+B3,FY2025 MLR > 1,Yes,Low,KEEP,Simple profitability indicator.
+three_year_average_mlr,B3,Average MLR for 2023-2025,No,High,DROP,B3 has FY2025 claims only; do not fabricate history.
+claims_trend,B3,Annual claims trend,No,High,DROP,B3 has FY2025 claims only.
+medical_cost_inflation_pct,B4,Medical inflation benchmark,No for primary case,High,DROP,Primary case prohibits added medical inflation.
+utilization_trend_pct,B4,Utilization trend benchmark,No for primary case,High,DROP,Primary case prohibits added utilization trend.
+renewed_2026,Future,2026 renewal outcome,No,Direct,DROP,Future target/post-renewal leakage.
+account_id,B1,Account identifier,Yes,Memorization,DROP,"Join/output key only, not a predictor."
+account_status,B1,Current account status,Yes,Low,DROP,Constant Active value.
